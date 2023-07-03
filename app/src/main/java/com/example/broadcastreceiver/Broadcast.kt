@@ -24,7 +24,7 @@ class Broadcast : BroadcastReceiver() {
             Toast.makeText(
                 context,
                 "The device is currently in Airplane mode.",
-                Toast.LENGTH_LONG
+                Toast.LENGTH_SHORT
             ).show()
         }
         else{
